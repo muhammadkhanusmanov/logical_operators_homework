@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    d = a//10
+    return (a==(d*10+d))
