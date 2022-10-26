@@ -7,4 +7,5 @@ def main(a):
         bool: answer
     """
     d = a//100
+    
     return (10>d and d>=1)
