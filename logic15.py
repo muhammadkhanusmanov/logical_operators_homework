@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    o = a//100+(a%100)//10+a%10
+    return o%2!=0
