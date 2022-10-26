@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    e = a//10+a%10
+    return e%2!=0
