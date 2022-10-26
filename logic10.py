@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    q = a//10
+    return (10>q and q>=1)
