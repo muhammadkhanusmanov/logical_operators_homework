@@ -6,4 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    d = a//10000
+    return (10>d and d>=1)
