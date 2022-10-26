@@ -5,4 +5,9 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    d1 = a//10000
+    d2 = (a%10000)//1000
+    d3 = (a%1000)//100
+    d4 = (a%100)//10
+    d5 = a%10
+    return (d1<d2 and d2<d3 and d3<d4 and d4<d5)
